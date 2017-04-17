@@ -5,7 +5,7 @@ url: https://peerkons.github.io/jekyllthemes/
 permalink: ':title/'
 
 markdown: kramdown
-baseurl: "/karna"
+baseurl: "/jekyllthemes"
 
 
 sass:
