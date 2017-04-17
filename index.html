@@ -5,9 +5,9 @@ layout: default
 <div id="grid" data-columns class="cols">
     {% for post in site.posts %}
     <div class="box" style="background-color:#{{post.color}}">
-       {% if post.img %}
+
           <img class="feat-image" src={{site.baseurl}}/images | append: post.img }} alt="{{post.title}}">
-       {% endif %}
+  
           <div class="container">
             <h4>{{post.title}}</h4>
             <p>{{post.description}}</p>
